@@ -1,8 +1,7 @@
 import cv2
 import numpy as np
 
-# Загрузите изображение
-img = cv2.imread('img.png')  # Замените на путь к вашему изображению
+img = cv2.imread('img.png')
 if img is None:
     raise FileNotFoundError('Изображение не найдено.')
 
